@@ -1,3 +1,4 @@
+/*
 const tf = require('@tensorflow/tfjs');
 console.log("sad")
 var model
@@ -8,7 +9,9 @@ async function initialize() {
             
 }
 initialize()
+*/
 console.log("hey");
+
 
 exports.lambda_handler =  async function(event, context) {
   console.log("EVENT: \n" + JSON.stringify(event, null, 2))
