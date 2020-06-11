@@ -8,7 +8,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: helloWorld.handler
-      CodeUri: ./Lambda
+      CodeUri: .
       Runtime: nodejs10.x
       AutoPublishAlias: live
       Description: 'Lambda function for CD Demo'
