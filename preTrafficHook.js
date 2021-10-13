@@ -3,7 +3,7 @@ const codeDeploy = new AWS.CodeDeploy({ apiVersion: "2014-10-06" });
 const lambda = new AWS.Lambda();
 
 exports.handler = (event, context, callback) => {
-    console.log("Entering PreTraffic Hook!");
+    console.log("Entering PreTraffic Hook!!!!!");
 
     const deploymentId = event.DeploymentId;
     const lifecycleEventHookExecutionId = event.LifecycleEventHookExecutionId;
